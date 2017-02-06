@@ -15,8 +15,9 @@ module.exports = {
       } else {
         return response.data.main.temp;
       }
-    }, function(response) {
-      throw new Error(response.message);
+    }, function(err) {
+      //throw new Error(err.response.data.message);
+      throw new Error("Unable to find that city! Please try again.")
     });
   }
 }

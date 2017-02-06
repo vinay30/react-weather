@@ -14,9 +14,9 @@ var WeatherForm = React.createClass({
   render: function() {
     return (
       <div>
-        <form onSubmit={this.onFormSubmit}>
+        <form className="callout primary" onSubmit={this.onFormSubmit}>
           <input type="text" ref="name" />
-          <button>Get Weather</button>
+          <button className="hollow button expanded">Get Weather</button>
         </form>
       </div>
     );
