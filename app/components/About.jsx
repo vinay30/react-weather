@@ -3,7 +3,7 @@ var React = require('react');
 var About = props => {
   return (
     <div>
-      <h1 className="text-center">About</h1>
+      <h1 className="text-center page-title">About</h1>
       <div className="callout primary">
         <p>Welcome to my first web app based on React.
           It is one of several projects I completed as part of an intro to React course through Udemy.</p>
